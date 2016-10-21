@@ -1,0 +1,48 @@
+/* app css stylesheet */
+
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.calculator {
+  width: 500px;
+  height: 500px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  margin: 100px auto;
+  text-align: center;
+  background-color: white;
+}
+
+.calculator_row {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.calculator_display {
+  height: 70px;
+  width:455px;
+  border: 1px solid gray;
+  text-align: right;
+  font: 60px Arial;
+  color: darkslateblue;
+  background-color: white;
+}
+
+.calculator_key {
+  width: 100px;
+  height: 76px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font: 30px Arial;
+}
+
+.calculator_key:hover {
+  background-color: gray;
+}
+
